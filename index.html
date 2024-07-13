@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STOCK:Calculator</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <nav class="navigationBar"></nav>
+    <div class="page1">
+        <div class="page1-content1">
+            <div class="part1">
+                <table id="bought" border="1">
+                    <tr>
+                        <th colspan="5" id="heading1" class="h1-bought">BOUGHT</th>
+                    </tr>
+                    <tr>
+                        <td id="heading2">Invested Amount</td>
+                        <td id="heading2">Remaining Amoint</td>
+                        <td id="heading2">Price/Stock</td>
+                        <td id="heading2">Quantity</td>
+                        <td id="heading2">Total</td>
+                    </tr>
+                    <tr>
+                        <td id="investedAmount" class="upcontent"><input type="number" id="investedAmountinput"></td>
+                        <td id="remaingBalance" class="upcontent">0</td>
+                        <td id="Price-stock-bought" class="upcontent"><input type="number" id="priceperstock-boughtinput"></td>
+                        <td id="quantity-bought" class="upcontent">0</td>
+                        <td id="total" class="upcontent">0</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="part2">
+                <table id="predict" border="1">
+                    <tr>
+                        <th colspan="4" id="heading1" class="h1-bought">PREDICT</th>
+                    </tr>
+                    <tr>
+                        <td id="heading2">Price/Stock</td>
+                        <td id="heading2">Profit/Stock</td>
+                        <td id="heading2">Quantity</td>
+                        <td id="heading2">Value</td>
+                    </tr>
+                    <tr>
+                        <td id="price-stock-predict" class="upcontent"><input type="number" id="perstockpriceinput"></td>
+                        <td id="profit-stock-predict" class="upcontent">0</td>
+                        <td id="quantity-predict" class="upcontent">0</td>
+                        <td id="value-predict" class="upcontent">0</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="page1-content2">
+            <table border="1">
+                <tr>
+                    <th class="th2-heading2">PROFIT</th>
+                    <th class="th2-heading2">PROFIT %</th>
+                    <th class="th2-heading2">NET BALANCE</th>
+                </tr>
+                <tr>
+                    <td id="profit" class="secondtd">0</td>
+                    <td id="profitpercentage" class="secondtd">0</td>
+                    <td id="netbalance" class="secondtd">0</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+<script src="assets/js/brain.js"></script>
+</body>
+</html>
