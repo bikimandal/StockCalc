@@ -16,6 +16,13 @@ body{
     width: 100%;
     height: 10vh;
     background-color: black;
+    color: #F7E7DC;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: bold;
 }
 .page1{
     width: 100%;
@@ -110,4 +117,63 @@ td {
 }
 .secondtd{
     background-color: #F7E7DC;
+}
+
+
+
+
+
+
+
+
+footer{
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.footerpart1{
+    /* background-color: aquamarine; */
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-right: 3rem;
+}
+.footerpart2{
+    /* background-color: rgb(255, 255, 255); */
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3rem;
+    padding: 1rem
+}
+.footerpart2>p{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.footerpart1>ul>li , .footerpart2>ul>li{
+    list-style: none;
+    margin-bottom: 0.5rem;
+}
+
+.footerpart1>ul>li>a , .footerpart2>ul>li>a {
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.footerpart1>ul>li>a:hover , .footerpart2>ul>li>a:hover{
+    color: #FFD966;
+}
+i{
+    font-size: 1.8rem;
 }
