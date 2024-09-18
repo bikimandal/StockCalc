@@ -38,7 +38,7 @@ body{
     height: 30vh;
     /* background-color: blueviolet; */
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
@@ -46,6 +46,11 @@ body{
     width: 100%;
     height: 30vh;
     background-color:#758694;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:10rem ;
 }
 td {
     font-size: var(--tdcontent);
@@ -177,3 +182,23 @@ footer{
 i{
     font-size: 1.8rem;
 }
+
+@media only screen and (max-width: 600px) {
+    .page1-content1{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .part1{
+        margin: 2rem 0;
+    }
+    .part2{
+        margin: 2rem 0;
+    }
+    .page1-content2 table{
+        margin: 2rem 0;
+    }
+    footer{
+        margin: 10rem;
+    }
+  }
